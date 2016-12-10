@@ -1,6 +1,11 @@
 LOCAL_PATH := vendor/samsung/fortuna3gfz/proprietary
 
-# SENSORS
+# Nfc
+PRODUCT_COPY_FILES += \
+	$(LOCAL_PATH)/lib/hw/nfc_nci.msm8916.so:system/lib/hw/nfc_nci.msm8916.so \
+	$(LOCAL_PATH)/vendor/firmware/sec_s3fwrn5_firmware.bin:system/vendor/firmware/sec_s3fwrn5_firmware.bin
+
+# Sensors
 PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/lib/hw/sensors.msm8916.so:system/lib/hw/sensors.msm8916.so
 
