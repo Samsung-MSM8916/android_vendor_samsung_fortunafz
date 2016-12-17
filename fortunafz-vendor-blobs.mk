@@ -1,4 +1,4 @@
-LOCAL_PATH := vendor/samsung/fortuna3gfz/proprietary
+LOCAL_PATH := vendor/samsung/fortunafz/proprietary
 
 # Nfc
 PRODUCT_COPY_FILES += \
