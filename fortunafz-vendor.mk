@@ -2,4 +2,4 @@
 DEVICE_PACKAGE_OVERLAYS := vendor/samsung/fortunafz/overlay
 
 # Include non-open-source files
-$(call inherit-product, vendor/samsung/fortunafz/fortuna3gfz-vendor-blobs.mk)
+$(call inherit-product, vendor/samsung/fortunafz/fortunafz-vendor-blobs.mk)
