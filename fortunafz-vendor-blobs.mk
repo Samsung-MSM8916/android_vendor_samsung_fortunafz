@@ -12,6 +12,9 @@ PRODUCT_COPY_FILES += \
 
 # RIL
 PRODUCT_COPY_FILES += \
+	$(LOCAL_PATH)/bin/rild:system/bin/rild \
+	$(LOCAL_PATH)/lib/libril.so:system/lib/libril.so \
+	$(LOCAL_PATH)/lib/librilutils.so:system/lib/librilutils.so \
 	$(LOCAL_PATH_RIL)/lib/libsec-ril.so:system/lib/libsec-ril.so \
 	$(LOCAL_PATH_RIL)/lib/libsec-ril-dsds.so:system/lib/libsec-ril-dsds.so \
 	$(LOCAL_PATH_RIL)/lib/libsecril-client.so:system/lib/libsecril-client.so \
